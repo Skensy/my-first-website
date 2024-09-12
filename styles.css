@@ -21,6 +21,7 @@ div .nav-row {
     flex-direction: row;
     padding-left: 240px;
     padding-right: 240px;
+
 }
 
 .header-logo {
@@ -35,4 +36,34 @@ div .nav-row {
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
+}
+
+
+.nav-row-hero {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.first-hero {
+}
+
+.second-hero {
+    width: auto;
+    height: 250px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+img {
+    width: 450px;
+}
+
+.p-hero {
+    width: 450px;
+    padding-right: 20px;
 }
