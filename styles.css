@@ -1,4 +1,5 @@
 * { 
+    border: 1px red solid;
  }
 
 
@@ -185,4 +186,60 @@ button {
     padding-left: 200px;
     display: flex;
     flex-direction: column;
+}
+
+.footer-col-text {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    height: auto;
+    margin-top: 150px;
+
+}
+
+.footer-col-text-1 {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    height: auto;
+}
+
+.footer-row-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.footer-col-button {
+     align-content: center;
+     margin-top: 150px;
+     margin-bottom: 150px;
+     padding-left: 50px;
+     padding-right: 50px;
+    }
+
+.nav-row-hero-2-block-footer {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.color {
+    background-color: #3882fa;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
