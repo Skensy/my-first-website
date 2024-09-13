@@ -1,5 +1,4 @@
 * { 
-    border: 1px solid red;
  }
 
 
@@ -71,6 +70,10 @@ div .nav-row-1 {
     margin-top: 50px;
 }
 
+. {
+    align-content: center;
+}
+
 .second-hero {
     width: auto;
     height: 250px;
@@ -105,10 +108,42 @@ button {
     text-align: center;
 }
 
+.block-2-h3 {
+    height: auto;
+    width: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.block-2-h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+    text-align: end;
+}
+
 .nav-row-2-block {
     background-color: white;
     width: auto;
     height: auto;
+    padding-bottom: 100px;
+}
+
+.quote-row-div {
+    background-color: #e7e5eb;
+    width: auto;
+    height: auto;
+}
+
+.quote-row {
+    height: auto;
+    width: auto;
+    align-content: center;
+    padding: 100px;
 }
 
 
@@ -143,9 +178,4 @@ button {
     flex-direction: row;
     justify-content: center;
     gap: 50px;
-}
-
-.hero-col2 {
-    display: flex;
-    flex-direction: column  ;
 }
