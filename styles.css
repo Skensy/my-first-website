@@ -1,5 +1,4 @@
 * { 
-    border: 1px red solid;
  }
 
 
@@ -208,8 +207,10 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    background-color: black;
+    background-color: white;
+    padding: 60px;
 }
 
 .footer-col-button {
@@ -235,11 +236,27 @@ button {
 .flex-row {
     display: flex;
     flex-direction: row;
-    height: min-content;
+    height: auto;
+    background-color: #3882f6;
+    align-items: stretch;
 }
 
 .flex-col {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #3882f6;
+    padding: 30px;
+}
+
+
+.flex-col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 58px;
+}
+
+.button-foot {
 }
