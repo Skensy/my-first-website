@@ -111,11 +111,11 @@ button {
 .block-2-h3 {
     height: auto;
     width: auto;
-    font-size: 36px;
+    font-size: 28px;
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
-    text-align: center;
+    text-align: start;
     margin-bottom: -15px;
 }
 
@@ -136,12 +136,10 @@ button {
 .quote-row-div {
     background-color: #e7e5eb;
     width: auto;
-    height: auto;
 }
 
 .quote-row {
-    height: auto;
-    width: auto;
+    align-items: center;
     align-content: center;
     padding: 100px;
 }
@@ -178,4 +176,13 @@ button {
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+}
+
+.div-h {
+    height: auto;
+    width: auto;
+    padding-right: 200px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
 }
